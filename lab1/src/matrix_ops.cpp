@@ -4,7 +4,7 @@
 int** matrix_create(std::size_t rows, std::size_t cols) {
     int** matrix = new int*[rows];
     for (std::size_t i = 0; i < rows; i++) {
-        matrix[i] = new int[cols];
+        matrix[i] = new int[cols]{};
     }
     return matrix;
 }
