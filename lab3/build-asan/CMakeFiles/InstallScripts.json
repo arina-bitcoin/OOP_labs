@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/computer/Documents/OOP_labs/lab3/build-asan/cmake_install.cmake",
+		"/Users/computer/Documents/OOP_labs/lab3/build-asan/_deps/googletest-build/cmake_install.cmake",
+		"/Users/computer/Documents/OOP_labs/lab3/build-asan/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"/Users/computer/Documents/OOP_labs/lab3/build-asan/_deps/googletest-build/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

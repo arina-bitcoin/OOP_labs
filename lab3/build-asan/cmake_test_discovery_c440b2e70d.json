@@ -1,0 +1,288 @@
+{
+  "tests": 54,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "StudentTest",
+      "tests": 12,
+      "testsuite": [
+        {
+          "name": "DefaultConstructor",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 24
+        },
+        {
+          "name": "ConstructorStoresFields",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 30
+        },
+        {
+          "name": "NullNameBecomesEmpty",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 36
+        },
+        {
+          "name": "EqualityByIdOnly",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 41
+        },
+        {
+          "name": "CopyIsDeep",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 46
+        },
+        {
+          "name": "CopyAssignmentIsDeep",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 53
+        },
+        {
+          "name": "SelfAssignment",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 62
+        },
+        {
+          "name": "MoveConstructorLeavesSourceSafe",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 70
+        },
+        {
+          "name": "CopyFromMovedFromIsSafe",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 78
+        },
+        {
+          "name": "MoveAssignment",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 88
+        },
+        {
+          "name": "SelfMoveAssignment",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 96
+        },
+        {
+          "name": "Output",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 104
+        }
+      ]
+    },
+    {
+      "name": "StudentSetTest",
+      "tests": 42,
+      "testsuite": [
+        {
+          "name": "EmptySet",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 113
+        },
+        {
+          "name": "AddNewAndDuplicate",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 122
+        },
+        {
+          "name": "DuplicateDeterminedById",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 131
+        },
+        {
+          "name": "RemoveExistingAndMissing",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 138
+        },
+        {
+          "name": "RemoveFromEmpty",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 150
+        },
+        {
+          "name": "RemovePreservesOrder",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 156
+        },
+        {
+          "name": "RemoveFirstAndLast",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 163
+        },
+        {
+          "name": "AddAfterRemoveAll",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 174
+        },
+        {
+          "name": "ContainsAndCallOperatorConsistent",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 182
+        },
+        {
+          "name": "CallOperatorWorksOnConstSet",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 193
+        },
+        {
+          "name": "PlusEqualsMinusEqualsChain",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 202
+        },
+        {
+          "name": "PlusEqualsReturnsSelf",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 216
+        },
+        {
+          "name": "CopyConstructorIsIndependent",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 224
+        },
+        {
+          "name": "CopyAssignmentIsIndependent",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 237
+        },
+        {
+          "name": "CopyOfEmptySet",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 252
+        },
+        {
+          "name": "SelfAssignment",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 259
+        },
+        {
+          "name": "CopyAssignChain",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 270
+        },
+        {
+          "name": "MoveConstructorLeavesSourceEmpty",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 278
+        },
+        {
+          "name": "MoveAssignmentLeavesSourceEmpty",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 293
+        },
+        {
+          "name": "MoveFromEmpty",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 307
+        },
+        {
+          "name": "SelfMoveAssignment",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 318
+        },
+        {
+          "name": "MoveConstructorIsNoexcept",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 327
+        },
+        {
+          "name": "Union",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 332
+        },
+        {
+          "name": "Intersection",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 345
+        },
+        {
+          "name": "Difference",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 363
+        },
+        {
+          "name": "OperationsWithEmptySet",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 383
+        },
+        {
+          "name": "OperationsWithItself",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 396
+        },
+        {
+          "name": "DisjointSets",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 405
+        },
+        {
+          "name": "EqualityIgnoresOrder",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 414
+        },
+        {
+          "name": "InequalityDifferentElements",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 426
+        },
+        {
+          "name": "InequalityDifferentSize",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 436
+        },
+        {
+          "name": "EmptySetsEqual",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 445
+        },
+        {
+          "name": "EqualityIsReflexive",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 451
+        },
+        {
+          "name": "OutputFormat",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 457
+        },
+        {
+          "name": "OutputSingle",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 464
+        },
+        {
+          "name": "OutputEmpty",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 470
+        },
+        {
+          "name": "OutputInInsertionOrder",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 475
+        },
+        {
+          "name": "StressThousandAdds",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 482
+        },
+        {
+          "name": "StressAddRemove",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 498
+        },
+        {
+          "name": "StressCopyAndOperations",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 510
+        },
+        {
+          "name": "GrowthAcrossCapacityBoundaries",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 522
+        },
+        {
+          "name": "NamesSurviveReallocation",
+          "file": "\/Users\/computer\/Documents\/OOP_labs\/lab3\/tests\/test_student_set.cpp",
+          "line": 531
+        }
+      ]
+    }
+  ]
+}

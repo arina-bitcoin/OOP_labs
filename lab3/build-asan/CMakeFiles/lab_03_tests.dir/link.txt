@@ -1,0 +1,1 @@
+/usr/bin/c++ -fsanitize=address,undefined -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/lab_03_tests.dir/tests/test_student_set.cpp.o -o lab_03_tests  libstudent_lib.a lib/libgtest_main.a lib/libgtest.a
