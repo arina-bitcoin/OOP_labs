@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/Users/computer/Documents/OOP_labs/lab3/build-asan/_deps/googletest-subbuild/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
